@@ -1,5 +1,5 @@
 console.log("Hello from start.js");
-//1.
+//assignment 1.
 const source =
   "https://gist.githubusercontent.com/mapoto/515827c73f7f60a14cf2914f0cca16f0/raw/c41bc850bc989cadf6a1caa394ab12fce105d59e/countries.json";
 
@@ -21,7 +21,7 @@ fetch(source)
     console.error(error);
   });
 
-//2.
+//assignment 2.
 const imgUrl = "https://avatars.githubusercontent.com/u/38219434?v=4";
 
 fetch(imgUrl)
@@ -33,3 +33,8 @@ fetch(imgUrl)
     document.body.appendChild(imgElement);
   })
   .catch((error) => console.error("Error fetching image:", error));
+
+let products = [
+  { id: 1, name: "Laptop", price: 1000 },
+  { id: 2, name: "Phone", price: 500 },
+];
